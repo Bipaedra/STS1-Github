@@ -3,4 +3,4 @@ project(STS1-Github)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(STS1-Github Operations.cpp)
+add_library(STS1-Github Operations.cpp TD_GitHub.cpp TD_GitHub.h)
