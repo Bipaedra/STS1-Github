@@ -28,7 +28,7 @@ int plusGrand(int a, int b, int c)
     vec.push_back(a);
     vec.push_back(b);
     vec.push_back(c);
-    std::sort(vec.begin(), vec.end());
+    std::sort(vec.begin(), vec.end(), std::greater());
     return vec.front();
 }
 
