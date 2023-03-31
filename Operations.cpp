@@ -21,12 +21,12 @@ int soustraction(int a, int b)
 int multipliaction(int a, int b) {
     int resultat;
     resultat = a * b;
-    return resultat
+    return resultat;
 }
 
 int division(int a, int b) {
     int resultat;
     resultat = a / b;
-    return resultat
+    return resultat;
 
 }
