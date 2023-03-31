@@ -19,7 +19,7 @@ int exposant(int nbre, int exp) {
 
 float TVA(int prix)
 {
-    return prix * 0.196;
+    return prix * 1.196;
 }
 
 int plusGrand(int a, int b, int c)
